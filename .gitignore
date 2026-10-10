@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+*.db
+*.sqlite3
+data/raw/
+data/processed/
+models/production/*.pkl
+models/experiments/*.pkl
+.DS_Store
+*.log
+.vscode/
