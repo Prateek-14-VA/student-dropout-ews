@@ -1,0 +1,48 @@
+{
+  "admission": {
+    "RandomForest": {
+      "best_score": 0.5697050898718197,
+      "best_params": {
+        "n_estimators": 500,
+        "min_samples_split": 10,
+        "min_samples_leaf": 2,
+        "max_features": "log2",
+        "max_depth": 15
+      }
+    },
+    "XGBoost": {
+      "best_score": 0.5552107636029552,
+      "best_params": {
+        "subsample": 0.8,
+        "n_estimators": 300,
+        "max_depth": 6,
+        "learning_rate": 0.05,
+        "gamma": 0.3,
+        "colsample_bytree": 1.0
+      }
+    }
+  },
+  "semester": {
+    "RandomForest": {
+      "best_score": 0.7146052298429081,
+      "best_params": {
+        "n_estimators": 300,
+        "min_samples_split": 10,
+        "min_samples_leaf": 1,
+        "max_features": null,
+        "max_depth": 10
+      }
+    },
+    "XGBoost": {
+      "best_score": 0.7093376858939648,
+      "best_params": {
+        "subsample": 0.8,
+        "n_estimators": 300,
+        "max_depth": 6,
+        "learning_rate": 0.05,
+        "gamma": 0.3,
+        "colsample_bytree": 1.0
+      }
+    }
+  }
+}
