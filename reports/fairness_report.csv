@@ -1,0 +1,15 @@
+n,n_dropout,recall_dropout,false_positive_rate,false_negative_rate,group,sensitive_column,stage
+570,139,0.5036,0.1299,0.4964,Female,Gender,admission
+315,145,0.7034,0.2824,0.2966,Male,Gender,admission
+680,265,0.634,0.2386,0.366,No,Scholarship holder,admission
+205,19,0.2105,0.0269,0.7895,Yes,Scholarship holder,admission
+861,275,0.6109,0.1706,0.3891,No,International,admission
+24,9,0.4444,0.2667,0.5556,Yes,International,admission
+771,221,0.5204,0.1473,0.4796,No,Debtor,admission
+114,63,0.9048,0.451,0.0952,Yes,Debtor,admission
+680,265,0.7132,0.0699,0.2868,No,Scholarship holder,semester
+205,19,0.5263,0.0269,0.4737,Yes,Scholarship holder,semester
+771,221,0.6471,0.0473,0.3529,No,Debtor,semester
+114,63,0.8889,0.1569,0.1111,Yes,Debtor,semester
+861,275,0.7055,0.0546,0.2945,No,International,semester
+24,9,0.5556,0.1333,0.4444,Yes,International,semester
