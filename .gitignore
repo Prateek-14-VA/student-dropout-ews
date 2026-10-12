@@ -12,3 +12,4 @@ models/experiments/*.pkl
 .DS_Store
 *.log
 .vscode/
+instance/
